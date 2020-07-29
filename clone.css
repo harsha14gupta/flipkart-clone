@@ -1,0 +1,112 @@
+.container{
+	margin-right: 0;
+	height: 70px;
+	width: 5000px;
+	background-color:#2874f0;
+}
+
+img{
+
+	height: 20px;
+	width: 90px;
+	margin-left: 200px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+h1 {
+	margin:0;
+	padding: 0;
+	display: inline-block;
+}
+
+* {
+  box-sizing: border-box; 
+  display: inline-block; 
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  background: #ffffff;
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  padding:10px;
+  margin-top: 15px;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 30px;
+  background: #ffffff;
+  color: #2196F3;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Login button */
+._3Ep39l{
+    color: #3399FF;
+    font-family: "Arial";
+    font-weight: 600;
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 1px;
+    height: 30px;
+    padding: 10px 30px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+.more{
+     color: #ffffff;
+     display: inline-blocks;
+     margin: 30px;
+     cursor: pointer;
+   }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  color:#3399FF;
+}

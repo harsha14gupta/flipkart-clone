@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Online Shopping Site for Mobiles, Electronics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style type="text/css">
+  .jumbotron{
+      margin-right: 0;  
+      height: 70px;
+      width: 1365px;
+      background-color:#2874f0;
+    }
+ img.flip{
+  height: 30px;
+  width: 110px;
+  margin-left: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+ }
+
+/* Style the search field */
+form.example input[type=text] {
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  background: #ffffff;
+  display: inline-block;
+  width: 500px;
+  height: 40px;
+  padding:10px;
+  margin-top: 0px;
+  margin-left: 450px;
+  position: absolute;
+  top:30px;
+  
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 70px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-left:900px;
+  background: #ffffff;
+  color: #2196F3;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: absolute;
+  top:30px;
+}
+
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+/* Login button */
+._3Ep39l{
+    color: #3399FF;
+    font-family: "Arial";
+    font-weight: 600;
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 1px;
+    height: 30px;
+    padding: 10px 30px 30px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+    float: left;
+    position: absolute;
+    margin-left: 1000px;
+    top: 30px;
+
+}
+
+.more{
+     color: #ffffff;
+     display: inline-block;
+     margin: 30px;
+     cursor: pointer;
+   }
+h3{
+   font-size: 15px;
+   font-family: "Arial";
+   margin:0;
+   margin-bottom: 20px;
+   padding: 0;
+   text-align: center;
+}
+
+h3:hover{
+   color:#3399FF;
+   cursor: pointer;
+}
+
+.card{
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  top:30px;
+}
+ h1{
+  margin-left: 20px;
+  font-family: "Helvetica";
+ }
+
+img{
+  margin-bottom: 30px;
+  padding: 2px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  width:175px;
+}
+
+.greenh{
+  color:#228B22;
+  cursor: pointer;
+}
+
+ul {
+  white-space: nowrap;
+}
+
+ul, li {
+  list-style: none;
+  display: inline;
+}
+
+.bg{
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgimg{
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 400px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-wrapper {
+  position: relative;
+  max-width: 1100px;
+  height: 300px; 
+  margin: 1em auto;
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.menu {
+  
+  background: #f3f3f3;
+  box-sizing: border-box;
+  
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  
+  .item {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    outline: 1px dotted gray;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+}
+
+.paddles {
+}
+.paddle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3em;
+}
+.left-paddle {
+  left: 0;
+}
+.right-paddle {
+  right: 0;
+}
+.hidden {
+  display: none;
+}
+
+.print {
+  margin: auto;
+  max-width: 500px;
+  
+  span {
+    display: inline-block;
+    width: 100px;
+  }
+}
+
+.adjust{
+  position: relative;
+  bottom:370px;
+  margin-left: 1120px;
+  float: left;
+  display: inline-block;
+  height: 300px;
+}
+
+.card2 {
+  padding: 6px;
+  margin-left:50px;
+  margin-right: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  width:200px;
+}
+
+.finish{
+  color: #708090;
+  font-family: "Helvetica";
+  margin-left: 30px;
+  padding: 10px;
+  border:0.5px solid black;
+}
+
+html,
+body,
+img,
+figure {
+  max-width: 100%;
+}
+html,
+body {
+  overflow-x: hidden;
+  color: #000;
+  -ms-overflow-style: scrollbar;
+  -webkit-font-smoothing: antialiased;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+.ct-u-paddingTop10 {
+  padding-top: 10px !important;
+}
+.ct-footer {
+  background-color: #111;
+  padding-top: 70px;
+  margin-top: 20px;
+  position: relative;
+}
+.ct-footer-pre {
+  width: 100%;
+  padding-bottom: 55px;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ct-footer-pre span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ebebeb;
+  font-size: 30px;
+}
+.ct-footer-pre .form-group {
+  position: relative;
+  margin: 0;
+}
+.ct-footer-pre .form-group:before,
+.ct-footer-pre .form-group:after {
+  content: '';
+  display: table;
+}
+.ct-footer-pre .form-group:after {
+  clear: both;
+}
+.ct-footer-pre .form-group input {
+  border: 1px solid #00bff3;
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  padding: 0 30px;
+  margin: 0 5px;
+  border-radius: 0 !important;
+}
+.ct-footer-pre .form-group button {
+  height: 50px;
+  position: relative;
+  width: 80px;
+  padding: 0
+}
+.ct-footer-list {
+  padding: 50px 0;
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ct-footer-list > li .ct-footer-list-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #00bff3;
+  font-size: 30px;
+}
+.ct-footer-list > li ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ct-footer-list > li ul li a {
+  color: #fff;
+}
+.ct-footer-list > li ul li a:hover,
+.ct-footer-post a:hover {
+  text-decoration: underline;
+}
+.ct-footer-post {
+  background: #000;
+  padding: 30px 0;
+}
+.ct-footer-post .inner-left,
+.ct-footer-post .inner-right {
+  padding: 20px 0;
+}
+.ct-footer-post ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 -20px;
+}
+.ct-footer-post ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.ct-footer-post a {
+  color: #fff;
+}
+.ct-footer-post p {
+  color: #fff;
+}
+.ct-footer-meta {
+  padding-top: 30px;
+}
+.ct-footer-meta .ct-socials {
+  padding: 20px 0;
+}
+.ct-footer-meta .ct-socials li {
+  padding: 0 3px;
+}
+.ct-footer--with-button {
+  padding-top: 150px;
+}
+address {
+  color: #fff;
+  display: inline-block;
+}
+address span {
+  font-weight: 600;
+}
+address a {
+  color: #fff;
+}
+address a:hover {
+  text-decoration: underline;
+}
+.btn {
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  color: #111;
+  font-size: 26px;
+  padding: 12px 30px;
+}
+.btn.btn-motive {
+  background-color: #00bff3;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.btn.btn-motive:hover,
+.btn.btn-motive:hover:active {
+  background-color: #00bff3;
+}
+.btn.btn-violet {
+  color: #fff;
+  background-color: #4f4f99;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.btn.btn-violet:hover {
+  background-color: #37376b;
+}
+.btn.btn-violet:hover:active {
+  background-color: #2f2f5b
+}
+.btn.btn-green {
+  color: #fff;
+  background-color: #43670f;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.btn.btn-green:hover {
+  background-color: #36520c;
+}
+.btn.btn-green:hover:active {
+  background-color: #314a0b;
+}
+.btn.btn-red {
+  color: #fff;
+  background-color: #da2229;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.btn.btn-red:hover {
+  background-color: #ae1b21;
+}
+.btn.btn-red:hover:active {
+  background-color: #9d181e
+}
+.btn.btn-white {
+  background-color: #fff;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.btn.btn-white:hover {
+  background-color: #d9d9d9;
+}
+.btn.btn-white:hover:active {
+  background-color: #c9c9c9
+}
+.btn.btn-large {
+  padding: 20px 50px;
+  font-size: 30px;
+  white-space: normal;
+}
+.ct-mediaSection {
+  background-attachment: fixed;
+}
+.ct-section_header--type1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #000;
+  font-size: 115px;
+  text-transform: uppercase;
+}
+.ct-section_header--type2 small {
+  font-family: 'coquette', fantasy;
+  font-size: 58px;
+  line-height: .7;
+  display: block;
+  font-weight: 700;
+  position: relative;
+  left: -12px;
+}
+.ct-section_header--type2 span {
+  font-family: 'Bebas Neue';
+  font-size: 115px;
+  line-height: .8;
+}
+.ct-section_header--type2 img {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 15px;
+  padding-right: 3px;
+}
+.ct-section_header--type3 {
+  text-align: center;
+}
+.ct-section_header--type3 small {
+  font-family: 'coquette', fantasy;
+  font-size: 50px;
+  padding: 15px 0;
+  font-weight: 700;
+  color: #fff;
+  background-image: url("/core/fileparse.php/16/urlt/../images/ribbon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block
+}
+.ct-section_header--type3 span {
+  font-family: 'Bebas Neue';
+  font-size: 150px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: .85
+}
+.ct-section_header--type4 {
+  text-align: center;
+}
+.ct-section_header--type4:before,
+.ct-section_header--type4:after {
+  content: '';
+  display: table
+}
+.ct-section_header--type4:after {
+  clear: both
+}
+.ct-section_header--type4 small {
+  font-family: 'coquette', fantasy;
+  font-size: 50px;
+  color: inherit;
+  font-weight: 700;
+  display: block
+}
+.ct-section_header--type4 span {
+  font-family: 'nimbus-sans-condensed', sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 150px;
+  text-transform: uppercase;
+  display: block;
+  line-height: .7
+}
+.ct-section_header + p {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+.ct-section_header--type4 + p {
+  font-family: 'nimbus-sans-condensed', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Media Queries */
+
+@media (min-width:1200px) {
+  .ct-footer-pre {
+    display: table;
+  }
+  .ct-footer-pre > .inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .ct-footer-list > li {
+    width: 20%;
+    display: table-cell;
+    vertical-align: top;
+  }
+  .ct-footer-list > li:last-child {
+    width: 7%;
+  }
+}
+
+@media (max-width:1199px) {
+  .ct-footer-pre .form-group {
+      padding-top: 15px
+  }
+}
+@media (max-width: 1199px) {
+  .ct-footer-list > li {
+    display: inline-block;
+    float: left;
+  }
+}
+@media (min-width:992px) {
+  .ct-footer-post .inner-left {
+    float: left;
+  }
+  .ct-footer-post .inner-right {
+    float: right;
+  }
+}
+@media (max-width:991px) {
+  .ct-footer-post {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .ct-footer-list > li {
+    width: 33.3333%;
+  }
+}
+@media (min-width:768px) {
+  .ct-footer-post p {
+    display: inline-block;
+  }
+  .ct-footer-post p + p {
+    padding-left: 50px;
+  }
+}
+@media (max-width:767px) {
+  address {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 480px) and (max-width:767px) {
+  .ct-footer-list > li {
+    width: 50%;
+  }
+}
+@media (min-width:480px) {
+  .ct-footer-pre .form-group button {
+    top: -1px;
+  }
+  .ct-footer-pre .form-group input {
+    width: 331px;
+  }
+}
+@media (max-width:479px) {
+  .ct-footer-pre .form-group input {
+    float: left;
+    width: 70%;
+    margin: 0;
+  }
+  .ct-footer-pre .form-group button {
+    float: left;
+    width: 30%;
+  }
+  .ct-footer-list > li {
+    width: 100%;
+    text-align: center;
+  }
+  .ct-footer-list {
+    padding: 20px 0;
+  }
+  .btn.btn-large {
+    padding: 20px 10px;
+    line-height: .9;
+    font-size: 26px;
+    letter-spacing: -.2px;
+  }
+  .ct-section_header--type1 {
+    font-size: 60px;
+    line-height: .8;
+  }
+  .ct-section_header + p {
+    font-size: 22px;
+  }
+  .ct-section_header--type3 small {
+    font-size: 25px;
+  }
+  .ct-section_header--type4 small {
+      font-size: 40px;
+  }
+  .ct-section_header--type3 span {
+    font-size: 90px;
+  }
+  .ct-section_header--type4 span {
+      font-size: 80px;
+  }
+  .ct-section_header--type4 + p {
+    font-size: 28px;
+  }
+}
+  </style>
+  <script>
+    // duration of scroll animation
+var scrollDuration = 300;
+// paddles
+var leftPaddle = document.getElementsByClassName('left-paddle');
+var rightPaddle = document.getElementsByClassName('right-paddle');
+// get items dimensions
+var itemsLength = $('.item').length;
+var itemSize = $('.item').outerWidth(true);
+// get some relevant size for the paddle triggering point
+var paddleMargin = 20;
+
+// get wrapper width
+var getMenuWrapperSize = function() {
+  return $('.menu-wrapper').outerWidth();
+}
+var menuWrapperSize = getMenuWrapperSize();
+// the wrapper is responsive
+$(window).on('resize', function() {
+  menuWrapperSize = getMenuWrapperSize();
+});
+// size of the visible part of the menu is equal as the wrapper size 
+var menuVisibleSize = menuWrapperSize;
+
+// get total width of all menu items
+var getMenuSize = function() {
+  return itemsLength * itemSize;
+};
+var menuSize = getMenuSize();
+// get how much of menu is invisible
+var menuInvisibleSize = menuSize - menuWrapperSize;
+
+// get how much have we scrolled to the left
+var getMenuPosition = function() {
+  return $('.menu').scrollLeft();
+};
+
+// finally, what happens when we are actually scrolling the menu
+$('.menu').on('scroll', function() {
+
+  // get how much of menu is invisible
+  menuInvisibleSize = menuSize - menuWrapperSize;
+  // get how much have we scrolled so far
+  var menuPosition = getMenuPosition();
+
+  var menuEndOffset = menuInvisibleSize - paddleMargin;
+
+  // show & hide the paddles 
+  // depending on scroll position
+  if (menuPosition <= paddleMargin) {
+    $(leftPaddle).addClass('hidden');
+    $(rightPaddle).removeClass('hidden');
+  } else if (menuPosition < menuEndOffset) {
+    // show both paddles in the middle
+    $(leftPaddle).removeClass('hidden');
+    $(rightPaddle).removeClass('hidden');
+  } else if (menuPosition >= menuEndOffset) {
+    $(leftPaddle).removeClass('hidden');
+    $(rightPaddle).addClass('hidden');
+}
+
+  // print important values
+  $('#print-wrapper-size span').text(menuWrapperSize);
+  $('#print-menu-size span').text(menuSize);
+  $('#print-menu-invisible-size span').text(menuInvisibleSize);
+  $('#print-menu-position span').text(menuPosition);
+
+});
+
+// scroll to left
+$(rightPaddle).on('click', function() {
+  $('.menu').animate( { scrollLeft: menuInvisibleSize}, scrollDuration);
+});
+
+// scroll to right
+$(leftPaddle).on('click', function() {
+  $('.menu').animate( { scrollLeft: '0' }, scrollDuration);
+});
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="jumbotron">
+   <div>
+            <img class="flip" src="./Assets/flipkart-plus_4ee2f9.png">
+            <!-- The form -->
+            <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search for products,brands and more" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <span class="_3Ep39l">Login</span>
+            <p class="more">More</p>
+            
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <h3><b>Electronics</b></h3>
+    </div>
+    <div class="col-md-2">
+      <h3><b>TVs & Appliances</b></h3>
+    </div>
+    <div class="col-md-2">
+      <h3><b>Men</b></h3>
+    </div>
+      <div class="col-md-2">
+      <h3><b>Women</b></h3>
+    </div>
+      <div class="col-md-2">
+      <h3><b>Baby & Kids</b></h3>
+    </div>
+      <div class="col-md-2">
+      <h3><b>Sports, Books & More</b></h3>
+    </div>
+
+  </div>
+</div>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="./Assets/2.jpg" alt="" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="./Assets/1.jpg" alt="" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="./Assets/2.jpg" alt="" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="deals">
+  <h1>Deals of the Day</h1>
+  <hr/>
+  ​<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./Assets/prod1.jpeg" alt="" style="width: 100%">
+      <p><b>Cushion,Bedsheets & More</b></p>
+      <p class="greenh">From ₹99</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./Assets/prod2.jpeg" alt="" style="width: 100%">
+      <p><b>Wall Decor</b></p>
+      <p class="greenh">From ₹49</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+     <img src="./Assets/prod3.jpeg" alt="" style="width: 100%">
+      <p><b>Wall Stickers</b></p>
+      <p class="greenh">From ₹99</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="./Assets/prod4.jpeg" alt="" style="width: 100%">
+      <p><b>Weighing Scale</b></p>
+      <p class="greenh">From ₹404</p>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="./Assets/prod5.jpeg" alt="" style="width: 100%">
+      <p><b>Computer Accessories</b></p>
+      <p class="greenh">From ₹99</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="./Assets/prod6.jpeg" alt="" style="width: 100%">
+      <p><b>Top Deals only for you!</b></p>
+      <p class="greenh">Upto 70% Off</p>
+    </div>
+  </div>
+</div>
+
+<div class="bg">
+<ul>
+    <li><img class="bgimg" src="./Assets/x.jpg"></li>
+    <li><img class="bgimg" src="./Assets/y.jpg"></li>
+    <li><img class="bgimg" src="./Assets/z.jpg"></li>
+</ul>
+</div>
+<hr/>
+
+<div>
+  <div class="menu-wrapper">
+  <ul class="menu">
+   <li class="item">
+     <img src="./Assets/nextprod1.jpeg" alt="">
+   </li><!--
+--><li class="item">
+  <img src="./Assets/nextprod2.jpg" alt="">
+</li><!--
+--><li class="item">
+  <img src="./Assets/nextprod3.jpg" alt="">
+</li><!--
+--><li class="item">
+  <img src="./Assets/nextprod4.jpeg" alt="">
+</li><!--
+--><li class="item">
+  <img src="./Assets/nextprod5.jpg" alt="">
+  </li><!--
+--><li class="item">
+  <img src="./Assets/nextprod1.jpeg" alt="">
+</li>
+  </ul>
+
+  <div class="paddles">
+    <button class="left-paddle paddle hidden">
+      <b><</b>
+    </button>
+    <button class="right-paddle paddle">
+     <b>></b>
+    </button>
+  </div>
+</div>
+</div>
+<div style="background-color: lightblue">
+  <h1 style="text-align:center">HEALTH ADVISORY ON COVID-19</h1>
+  <img class="adjust" src="./Assets/a.jpg" alt=" ">
+</div>
+<div class="deals">
+  ​<div class="row">
+  <div class="column">
+    <div class="card2">
+      <img src="./Assets/first.png" alt="" style="width: 100%">
+      <p><b>100% SECURE PAYMENTS</b></p>
+      <p class="greenh">Moving your card details to a much more secured place</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+      <img src="./Assets/second.png" alt="" style="width: 100%">
+      <p><b>TRUSTPAY</b></p>
+      <p class="greenh">100% Payment Protection. Easy Return Policy</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card2">
+     <img src="./Assets/third.png" alt="" style="width: 100%">
+      <p><b>HELP CENTER</b></p>
+      <p class="greenh">Got a question?Look no further. Submit your query here.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card2">
+      <img src="./Assets/fourth.png" alt="" style="width: 100%">
+      <p><b>SHOP ON THE GO</b></p>
+      <p class="greenh">Download the app and get exciting app only offers at your fingertips.</p>
+    </div>
+  </div>
+</div>
+
+<div class="finish">
+  <p>
+    <b>Top Stories:Brand Directory</b><br>
+<b>MOST SEARCHED FOR ON FLIPKART</b>:Flipkart Videos Flipkart Pay LaterFlight BookingBig Shopping DaysMi Air Purifier 2CiQOOO 3Studio FurnitureAir PurifiersVaporizerNebulizersHand SanitizerHand WashPollution MasksA.P.J Abdul Kalam BooksRakesh Yadav BooksVision IAS BooksChetan Bhagat BooksAmrita Pritam BooksHuawei Band 4Realme 5iRealme Buds AirNokia 55 Inch TVRealme X2 PRONoise Colorfit Pro 2 SmartwatchUnicorn ToysRedmi 8Honor 20iOPPO K1Realme 5Realme 5 ProFlipkart Axis Bank Credit CardRedmi K20Redmi K20 ProRealme 3iRealme XPhantom 9Redmi 7ARedmi Note 7SEarringsMens Watches3m MasksPollution MasksJewelleryWatchesMangalsutran95 masksSunglassesMi SunglassesKabir Singh Sunglasses<br>
+<b>MOBILES</b>:Realme X2Realme 5Infinix Hot 8iPhone 11iPhone 11 ProiPhone 11 Pro MaxMobile Offersiphone xiphone 8iphone 7iphone 6Redmi 5A4G MobileNokia MobileSamsung MobileiphoneOppo MobileVivo Mobile<br>
+<b>CAMERA</b>:GoPro Action CameraNikon CameraCanon CameraSony CameraCanon DSLRNikon DSLR<br>
+<b>LAPTOPS</b>:Microsoft Surface Go Pentium Gold 64GBMicrosoft Surface Go Pentium 128GBBranded LaptopsApple LaptopsAcer LaptopsLenovo LaptopsDell LaptopsAsus LaptopsHP LaptopsGaming Laptops2 in 1 LaptopsBusiness Laptops<br>
+<b>TVS</b>:MI 43 Inch 4K TVMI 40 Inch TVMi 65 Inch TVSamsung 32 Smart TVLG TVTVSony TVSamsung TVMi 49 Inch Smart TVAndroid TelevisionIffalcon TvMi TV<br>
+<b>LARGE</b> APPLIANCES:Whirlpool Washing MachinesIFB Washing MachineVoltas ACHitachi ACLloyd ACBlue Star ACDaikin ACLG ACCooling Day StoreLG Washing MachinesBosch Washing MachinesLG RefrigeratorsSamsung RefrigeratorsSamsung Washing MachinesGodrej RefigeratorHaier RefrigeratorWhirlpool Refrigerator<br>
+<b>CLOTHING</b>:Men ShirtsMen T-ShirtsMen SuitsMen TrousersMens BlazersSareesDressesMidi SkirtsSkirtsDesigner Salwar SuitsBraSweatersJacketsSweatshirtsCardigansThermalsEthnic WearW KurtisFormal ShirtsDesigner KurtisDupattaCardigansParty DressesPalazzo SuitsNightgownsFormal Wear For MenMaxi DressesMidi DressAnarkaliIndo Western DressCocktail DressesCasual DressesBaby ClothesGownsCulottesIPL T-shirtsShapewearsLeggingsWhite DressesChinosSherwaniBarbie DressesGirls ClothesSalwar SuitsCricket T-shirtsTopsLehengaTieDress MaterialsScarfLeather JacketsDenim JacketsKurtisDesigner SareesSummer DressesDesigner BlousesKids ClothingScarvesBlouse DesignsInnerwearShortsIPL CapsFlipkart Fashion Big Shopping Days<br>
+<b>FOOTWEAR</b>:ShoesAdidas ShoesReebok ShoesNike ShoesDC ShoesPuma ShoesBootsBata ShoesWoodland ShoesSkechers ShoesParty ShoesMarathon ShoesSneakersClogsWomens BootsSports ShoesLoafersAsics Marathon Running ShoesCasual ShoesUnder Armour ShoesWomens Skechers ShoesRainy FootwearMonsoon FootwearMi ShoesFormal ShoesSchool Shoes<br>
+<b>GROCERIES</b>:PhonePe Grocery VoucherSugar Jaggery SaltsRiceMasala & SpicesDals PulsesAttaCookiesNoodlesGheeDry FruitsToor DalOlive OilSunflower OilJuicesView All<br>
+<b>BEST SELLING ON FLIPKART</b>:BooksToy StoreFestive DecorDiyasGift SetsCricket BatsCandlesHelmetsFiction BooksWall ClocksTreadmillsNail PolishRangoli PowderBaby FoodKajalLiterature BooksNotepadsE BikesChocolatesBoard GamesGym BagsCyclesCalculatorsLipsticksFace Wash
+<b>FURNITURE</b>:FurnitureSofasBedsDining setsWardrobesMattressesTV UnitsTablesChairsShelvesBean BagsRed SofaWhite SofaGreen SofaBlack SofaBrown Sofa<br><br>
+<b>Flipkart: The One-stop Shopping Destination</b><br>
+E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.<br>
+
+What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.<br>
+
+<b>Flipkart Plus</b><br>
+A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!<br><br>
+
+What's more, you can even use the Flipkart supercoins for a number of exciting services, like:<br>
+An annual Zomato Gold membership<br>
+An annual Hotstar Premium membership<br>
+6 months Gaana plus subscription<br>
+Rupees 550 instant discount on flights on ixigo<br>
+Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.<br><br>
+
+<b>No Cost EMI</b><br>
+In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.<br><br>
+
+<b>EMI on Debit Cards</b><br>
+Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.<br><br>
+
+<b>Mobile Exchange Offers</b><br>
+Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.<br><br>
+
+<b>What Can You Buy From Flipkart?</b><br>
+<b>Mobile Phones</b><br>
+From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services.<br><br>
+
+<b>Electronic Devices and Accessories</b><br>
+When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.<br><br>
+
+Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store.<br><br>
+
+Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.<br>
+
+How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.<br>
+
+<b>Large Appliances</b><br>
+Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.<br><br>
+
+<b>Small Home Appliances</b><br>
+Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.<br><br>
+
+<b>Lifestyle</b><br>
+Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.<br><br>
+
+<b>Home and Furniture</b><br>
+Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture. Be FurniSure, always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes.<br><br>
+
+You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.<br><br>
+
+<b>Baby and Kids</b><br>
+Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby.<br><br>
+
+<b>Books, Sports and Games</b><br>
+Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.<br><br>
+
+<b>Grocery/Supermart</b><br>
+Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.<br><br>
+</p>
+</div>
+  <footer class="ct-footer">
+  <div class="container">
+    <form name="contentForm" enctype="multipart/form-data" method="post" action="">
+      <div class="ct-footer-pre text-center-lg">
+        <div class="inner">
+          <span>Join Flipkart to receive updates for best deals!</span>
+        </div>
+        <div class="inner">
+          <div class="form-group">
+            <input name="formfields[nl_email]" id="nl_email" class="validate[required]" placeholder="Enter your email address" type="text" value=""> <label for="nl_email" class="sr-only">Email Address</label> <button type="submit" class="btn btn-motive">Join</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <ul class="ct-footer-list text-center-sm">
+      <li>
+        <h2 class="ct-footer-list-header">Learn More</h2>
+        <ul>
+          <li>
+            <a href="">Company</a><br>
+          </li>
+          <li>
+            <a href="">Clients</a><br>
+          </li>
+          <li>
+            <a href="">News</a><br>
+          </li>
+          <li>
+            <a href="">Careers</a><br>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Services</h2>
+        <ul>
+          <li>
+            <a href="">Design</a><br>
+          </li>
+          <li>
+            <a href="">Marketing</a><br>
+          </li>
+          <li>
+            <a href="">Sales</a><br>
+          </li>
+          <li>
+            <a href="">Programming</a><br>
+          </li>
+          <li>
+            <a href="">Support</a><br><br>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">The Industry</h2>
+        <ul>
+          <li>
+            <a href="">Thought Leadership</a><br>
+          </li>
+          <li>
+            <a href="">Webinars</a><br>
+          </li>
+          <li>
+            <a href="">Events</a><br>
+          </li>
+          <li>
+            <a href="">Sponsorships</a><br>
+          </li>
+          <li>
+            <a href="">Advisors</a><br>
+          </li>
+          <li>
+            <a href="">Training Program</a><br>
+          </li>
+          <li>
+            <a href="">Activities & Campaigns</a><br>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">Public Relations</h2>
+        <ul>
+          <li>
+            <a href="">Flipkart Blog</a><br>
+          </li>
+          <li>
+            <a href="">Hackathons</a><br>
+          </li>
+          <li>
+            <a href="">Videos</a><br>
+          </li>
+          <li>
+            <a href="">News Releases</a><br>
+          </li>
+          <li>
+            <a href="">Newsletters</a><br>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2 class="ct-footer-list-header">About</h2>
+        <ul>
+          <li>
+            <a href="">FAQ</a><br>
+          </li>
+          <li>
+            <a href="">Our Board</a><br>
+          </li>
+          <li>
+            <a href="">Our Staff</a><br>
+          </li>
+          <li>
+            <a href="">Contact Us</a><br>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="ct-footer-meta text-center-sm">
+      <div class="row">
+        <div class="col-sm-6 col-md-2">
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <address>
+            <span>Flipkart Internet Private Limited,<br></span>Clove Embassy Tech Village,<br>
+            Bengaluru, 560103,Karnataka, India<br>
+            <span>Phone: <a href="tel:5555555555">1800 208 9898</a></span>
+          </address>
+        </div>
+        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+          <a href="" target="_blank"><img alt="app store" src="./Assets/appstore.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-2 ct-u-paddingTop10">
+          <a href="" target="_blank"><img alt="google play store" src="./Assets/androidstore.png"></a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <ul class="ct-socials list-unstyled list-inline">
+            <li>
+              <a href="" target="_blank"><img src="./Assets/facebook-white.png"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><img src="./Assets/twitter-white.png"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><img src="./Assets/youtube-white.png"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><img src="./Assets/instagram-white.png"></a>
+            </li>
+            <li>
+              <a href="" target="_blank"><img src="./Assets/pinterest-white.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ct-footer-post">
+    <div class="container">
+      <div class="inner-left">
+        <ul>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">News</a>
+          </li>
+          <li>
+            <a href="">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="inner-right">
+        <p>Copyright © 2007-2020 Flipkart.com&nbsp;<a href="">Privacy Policy</a></p>
+        <p><a class="ct-u-motive-color" href="" target="_blank">Web Design</a> by HARSHA GUPTA</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
