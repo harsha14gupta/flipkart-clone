@@ -1,4 +1,4 @@
 # flipkart-clone
 
-This is a flipkart clone website made using HTML, CSS and Javascript.
+This is a flipkart clone website made by using only HTML and CSS.
 
